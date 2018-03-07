@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="SpaceTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SpaceTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="SpaceTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="SpaceTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

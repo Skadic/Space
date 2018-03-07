@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="74dp"
+    android:background="@drawable/ripple_white"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/backcolor_main"
+        android:layout_alignStart="@+id/tv_main" />
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="86dp"
+        android:text="Pumpe"
+        android:textColor="@color/textcolor_main"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_check"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/ic_check_circle"
+        android:tint="@color/colorAccent"
+        android:visibility="invisible"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_barcode"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/ic_qrcode"
+        android:tint="@color/backcolor_unselected"
+        android:visibility="visible"
+        android:layout_marginEnd="31dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_uncheck"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/ic_uncheck_circle"
+        android:tint="@color/backcolor_unselected"
+        android:visibility="visible" />
+
+</RelativeLayout>
